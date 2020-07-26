@@ -1,0 +1,111 @@
+body {
+  /* background: #000; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: blue;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.nav-center h2 {
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+.nav-center ul {
+display: flex;
+}
+
+.nav-center ul li {
+  list-style: none;
+}
+
+.nav-center a {
+  color: #fff;
+  margin: 0 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-width: 700%;
+}
+
+.nav-center a:hover {
+  text-decoration: underline;
+}
+
+.nav-center .active {
+  /* text-decoration: underline; */
+  color: #fff;
+  font-width: bolder;
+  background-color: #000;
+  padding: 7px 11px;
+  border-radius: 10px;
+}
+
+main {
+  min-height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #f1f5f8; */
+
+}
+
+.container {
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+}
+
+.container h2 {
+  margin-buttom: 4px;
+  padding:  1rem;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  /* font-size: 20px; */
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 35px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-width: bold;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #000;
+}
+
+
+@media (max-width: 680px) {
+  .nav-center {
+    flex-direction: column;
+  }
+
+  .nav-center h2, a {
+    align-items: center;
+    margin: auto;
+    padding: 15px 0;
+  }
+
+  .btn {
+    max-width: 100%;
+  }
+}
