@@ -1,0 +1,53 @@
+body {
+    background: rgb(5, 173, 240);
+    color: #fff;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid #222;
+    text-align: center;
+}
+
+.container h1 {
+    text-transform: uppercase;
+}
+
+.flex-container-1 {
+    border: 2px solid #222;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.btn {
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn:hover {
+    border: 2px solid #111111;
+}
+
+.click-btn {
+    background-color: #03990a;
+}
+
+.reset-btn {
+    background-color: red;
+}
+
+/*  result */ 
+#flex-result {
+    padding: 12px;
+    border: 2px solid;
+}
